@@ -4,8 +4,8 @@ from openai import OpenAI
 from openai.types.chat import ChatCompletionMessageParam
 
 
-client = OpenAI(api_key="")
-GOOGLE_FACT_CHECK_API_KEY = ""
+client = OpenAI(api_key=st.secrets["OpenAI_API_KEY"])
+GOOGLE_FACT_CHECK_API_KEY = st.secrets["GOOGLE_FACT_CHECK_API_KEY"]
 
 def ask_openai_about_claim(claim: str):
     messages: list[ChatCompletionMessageParam] = [
