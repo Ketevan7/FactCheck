@@ -9,7 +9,7 @@ It's built using Python and Streamlit, designed for both educational and real-wo
 ---
 
 ## 🌐 Live Demo
-👉 [Launch the app](https://ketevan7-factcheck.streamlit.app/)
+👉 [Launch the app](https://factcheckai.streamlit.app/)
 
 ---
 
